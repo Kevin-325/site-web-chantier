@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/**)",
+      "Bash(ls -la /)",
+      "Bash(mkdir -p site-tpc/images site-tpc/css site-tpc/js)",
+      "Bash(cp \"logo/Capture d’écran_2026-07-20_21-24-26.png\" site-tpc/images/logo-tpc.png)",
+      "Bash(cp \"chantier en contruction/photo_2026-07-20_21-19-59.jpg\" site-tpc/images/hero-background.jpg)",
+      "Bash(cp \"moi/Gemini_Generated_Image_6041cn6041cn6041.png\" site-tpc/images/about-engineer.jpg)",
+      "Bash(cp \"chantier en contruction/photo_2026-07-20_21-19-38.jpg\" site-tpc/images/service-construction.jpg)",
+      "Bash(command -v chromium chromium-browser google-chrome firefox)",
+      "Bash(firefox --headless --screenshot /tmp/tpc-fullpage.png --window-size=1440,900 \"http://localhost:8765/index.html\")",
+      "Bash(google-chrome --headless --disable-gpu --window-size=1440,900 --run-all-compositor-stages-before-draw --virtual-time-budget=5000 --dump-dom \"http://localhost:8765/index.html\")",
+      "Bash(google-chrome --headless --disable-gpu --window-size=1440,9500 --screenshot=/tmp/tpc-full2.png --hide-scrollbars \"http://localhost:8765/index.html\")",
+      "Bash(python3 -c ' *)",
+      "Bash(pkill -f \"http.server 8765\")",
+      "Bash(cp \"chantier en contruction/photo_2026-07-20_21-19-30.jpg\" site-tpc/images/realisation-9.jpg)",
+      "Bash(cp \"chantier en contruction/photo_2026-07-20_21-20-01.jpg\" site-tpc/images/realisation-10.jpg)",
+      "Bash(cp \"chantier en contruction/photo_2026-07-20_21-19-52.jpg\" site-tpc/images/realisation-11.jpg)",
+      "Bash(cp \"chantier en contruction/photo_2026-07-20_21-20-06.jpg\" site-tpc/images/realisation-12.jpg)",
+      "Bash(cp \"3D/photo_2026-07-20_21-25-30.jpg\" site-tpc/images/realisation-13.jpg)",
+      "Bash(python3 -m http.server 8765)",
+      "Bash(sed 's|<script src=\"./js/main.js\"></script>|<script src=\"./js/main.js\"></script><script>window.addEventListener\\(\"load\",\\(\\)=>{document.querySelectorAll\\(\".gallery__item\"\\)[5].click\\(\\);window.scrollTo\\(0,0\\)}\\);</script>|' index.html)",
+      "Bash(google-chrome --headless --disable-gpu --window-size=1440,900 --screenshot=/tmp/tpc-lightbox.png --virtual-time-budget=4000 --hide-scrollbars \"http://localhost:8765/test-lb.html\")",
+      "Bash(rm test-lb.html)",
+      "Bash(sed 's|<script src=\"./js/main.js\"></script>|<script src=\"./js/main.js\"></script><script>window.addEventListener\\(\"load\",\\(\\)=>{document.getElementById\\(\"realisations\"\\).scrollIntoView\\(\\)}\\);</script>|' index.html)",
+      "Bash(google-chrome --headless --disable-gpu --window-size=1440,1600 --screenshot=/tmp/tpc-gallery.png --virtual-time-budget=5000 --hide-scrollbars \"http://localhost:8765/test-gal.html\")",
+      "Bash(rm test-gal.html)"
+    ]
+  }
+}

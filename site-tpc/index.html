@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TRUE PANAFRICAN CONSTRUCTION SARL — BTP, Génie-civil &amp; Bureau d'étude à Bafoussam</title>
+  <meta name="description" content="TRUE PANAFRICAN CONSTRUCTION SARL : Spécialiste en Bâtiment et Travaux publics, Prestations de service, Bureau d'étude. Siège à Bafoussam-Tamdja, Cameroun.">
+
+  <!-- Polices : Montserrat (titres) + Open Sans (texte) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Icônes Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" type="image/png" href="./images/logo-tpc.png">
+</head>
+<body>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#accueil" class="navbar__brand">
+        <img src="./images/logo-tpc.png" alt="Logo True Panafrican Construction" class="navbar__logo">
+        <span class="navbar__name">TRUE PANAFRICAN<br><small>CONSTRUCTION SARL</small></span>
+      </a>
+
+      <nav class="navbar__links" id="navLinks">
+        <a href="#accueil" class="nav-link active">Accueil</a>
+        <a href="#apropos" class="nav-link">À Propos</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#realisations" class="nav-link">Réalisations</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn--accent navbar__cta">Demander un devis</a>
+      </nav>
+
+      <button class="navbar__burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="accueil">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="hero__kicker"><i class="fa-solid fa-helmet-safety"></i> BTP &middot; Génie-civil &middot; Bureau d'étude</p>
+        <h1 class="hero__title">Bâtir l'avenir avec rigueur et&nbsp;ingénierie.</h1>
+        <p class="hero__subtitle">
+          TRUE PANAFRICAN CONSTRUCTION SARL — Votre partenaire de confiance en BTP,
+          Génie-civil et Bureau d'étude au Cameroun.
+        </p>
+        <div class="hero__actions">
+          <a href="#services" class="btn btn--primary">Découvrir nos services</a>
+          <a href="#contact" class="btn btn--accent">Contactez-nous</a>
+        </div>
+      </div>
+      <a href="#apropos" class="hero__scroll" aria-label="Défiler vers le bas">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ================= À PROPOS ================= -->
+    <section class="section about" id="apropos">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <img src="./images/about-engineer.jpg" alt="Ingénieur sur un chantier à Bafoussam" loading="lazy">
+          <div class="about__badge">
+            <i class="fa-solid fa-location-dot"></i>
+            <span>Siège social<br><strong>Bafoussam-Tamdja</strong></span>
+          </div>
+        </div>
+
+        <div class="about__text reveal">
+          <p class="section__kicker">À propos de nous</p>
+          <h2 class="section__title">Une expertise camerounaise au service de vos projets</h2>
+          <p>
+            Basée à <strong>Bafoussam-Tamdja</strong>, TRUE PANAFRICAN CONSTRUCTION SARL est une
+            entreprise spécialisée en <strong>Bâtiment et Travaux publics</strong>, en
+            <strong>prestations de service</strong> et en <strong>bureau d'étude</strong>.
+          </p>
+          <p>
+            De la conception à la livraison, nos équipes d'ingénieurs et de techniciens
+            accompagnent chaque projet avec méthode : études techniques précises, exécution
+            soignée et contrôle rigoureux des travaux de génie-civil.
+          </p>
+
+          <ul class="about__values">
+            <li>
+              <i class="fa-solid fa-shield-halved"></i>
+              <div>
+                <h3>Sécurité</h3>
+                <p>La protection des personnes et des ouvrages au cœur de chaque chantier.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-ruler-combined"></i>
+              <div>
+                <h3>Respect des normes</h3>
+                <p>Des ouvrages conformes aux règles de l'art et aux normes en vigueur.</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa-solid fa-lightbulb"></i>
+              <div>
+                <h3>Innovation</h3>
+                <p>Des solutions techniques modernes pour des constructions durables.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICES ================= -->
+    <section class="section section--alt services" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__kicker">Nos expertises</p>
+          <h2 class="section__title">Trois domaines d'intervention</h2>
+          <p class="section__lead">Un accompagnement complet, de l'étude à la réalisation.</p>
+        </div>
+
+        <div class="services__grid">
+          <!-- Service 1 -->
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="./images/service-construction.jpg" alt="Réalisation de Bâtiments et Travaux Publics" loading="lazy">
+            </div>
+            <div class="card__body">
+              <span class="card__icon"><i class="fa-solid fa-building"></i></span>
+              <h3>Conception, Étude &amp; Réalisation</h3>
+              <p>Conception, étude et réalisation des Bâtiments et Travaux publics : de la fondation à la livraison, avec exigence et précision.</p>
+            </div>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="./images/service-controle.jpg" alt="Contrôle des travaux de Génie-civil" loading="lazy">
+            </div>
+            <div class="card__body">
+              <span class="card__icon"><i class="fa-solid fa-clipboard-check"></i></span>
+              <h3>Contrôle des travaux de Génie-civil</h3>
+              <p>Suivi et contrôle qualité de vos chantiers : conformité des ouvrages, respect des délais et des normes techniques.</p>
+            </div>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="card reveal">
+            <div class="card__media">
+              <img src="./images/service-ingenierie.jpg" alt="Bureau d'étude, Ingénierie et conseil" loading="lazy">
+            </div>
+            <div class="card__body">
+              <span class="card__icon"><i class="fa-solid fa-compass-drafting"></i></span>
+              <h3>Ingénierie &amp; Conseil</h3>
+              <p>Bureau d'étude : plans, modélisations 3D, dimensionnement et conseil technique pour sécuriser vos investissements.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= RÉALISATIONS ================= -->
+    <section class="section gallery" id="realisations">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__kicker">Réalisations</p>
+          <h2 class="section__title">Nos chantiers &amp; projets d'étude</h2>
+          <p class="section__lead">Aperçu de nos chantiers en cours et de nos conceptions 3D.</p>
+        </div>
+
+        <div class="gallery__filters reveal" role="tablist">
+          <button class="chip active" data-filter="all">Tout</button>
+          <button class="chip" data-filter="chantier">Chantiers</button>
+          <button class="chip" data-filter="etude">Études 3D</button>
+        </div>
+
+        <div class="gallery__grid">
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-1.jpg" alt="Entrée principale en béton armé en construction" loading="lazy">
+            <figcaption>Ouvrage d'entrée — béton armé</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-2.jpg" alt="Structure de portail et guérite en cours de finition" loading="lazy">
+            <figcaption>Portail &amp; guérite — gros œuvre</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-3.jpg" alt="Élévation des poteaux et murs en parpaings" loading="lazy">
+            <figcaption>Élévation poteaux &amp; maçonnerie</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-4.jpg" alt="Villa achevée avec terrasse arrondie" loading="lazy">
+            <figcaption>Villa livrée — finitions</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-8.jpg" alt="Chantier de bâtiment en cours avec coffrage bois" loading="lazy">
+            <figcaption>Coffrage &amp; ferraillage</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="etude">
+            <img src="./images/realisation-5.jpg" alt="Modélisation 3D d'un immeuble résidentiel R+3" loading="lazy">
+            <figcaption>Étude 3D — immeuble R+3</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="etude">
+            <img src="./images/realisation-6.jpg" alt="Vue aérienne 3D d'un immeuble avec toiture rouge" loading="lazy">
+            <figcaption>Étude 3D — vue aérienne</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="etude">
+            <img src="./images/realisation-7.jpg" alt="Conception 3D d'une villa avec clôture moderne" loading="lazy">
+            <figcaption>Étude 3D — villa &amp; clôture</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-9.jpg" alt="Villa avec terrasse arrondie en gros œuvre et échafaudages" loading="lazy">
+            <figcaption>Terrasse arrondie — gros œuvre</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-10.jpg" alt="Implantation des poteaux en béton armé sur fondations" loading="lazy">
+            <figcaption>Poteaux &amp; fondations</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-11.jpg" alt="Duplex livré avec balcons et garde-corps métalliques" loading="lazy">
+            <figcaption>Duplex livré — balcons</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="chantier">
+            <img src="./images/realisation-12.jpg" alt="Bâtiment à colonnades avec toiture rouge posée" loading="lazy">
+            <figcaption>Bâtiment à colonnades — toiture</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="etude">
+            <img src="./images/realisation-13.jpg" alt="Modélisation 3D d'un immeuble moderne avec parking" loading="lazy">
+            <figcaption>Étude 3D — immeuble moderne</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="etude">
+            <img src="./images/realisation-14.jpg" alt="Conception 3D d'un duplex avec balcon orange" loading="lazy">
+            <figcaption>Étude 3D — duplex</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="etude">
+            <img src="./images/realisation-15.jpg" alt="Vue aérienne 3D d'une villa avec piscine" loading="lazy">
+            <figcaption>Étude 3D — villa avec piscine</figcaption>
+          </figure>
+          <figure class="gallery__item reveal" data-cat="etude">
+            <img src="./images/realisation-16.jpg" alt="Conception 3D d'une villa avec garage double" loading="lazy">
+            <figcaption>Étude 3D — villa &amp; garage</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section--dark contact" id="contact">
+      <div class="container">
+        <div class="section__head section__head--light reveal">
+          <p class="section__kicker">Contact &amp; Devis</p>
+          <h2 class="section__title">Parlons de votre projet</h2>
+          <p class="section__lead">Demandez un devis gratuit — réponse rapide garantie.</p>
+        </div>
+
+        <div class="contact__grid">
+          <!-- Formulaire -->
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="nom">Nom complet *</label>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+              </div>
+              <div class="form__group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" placeholder="vous@exemple.com" required>
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="telephone">Téléphone</label>
+              <input type="tel" id="telephone" name="telephone" placeholder="+237 6XX XX XX XX">
+            </div>
+            <div class="form__group">
+              <label for="message">Message *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Décrivez votre projet (type d'ouvrage, localisation, délais...)" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--accent btn--block">
+              <i class="fa-solid fa-paper-plane"></i> Envoyer la demande
+            </button>
+            <p class="form__status" id="formStatus" role="status"></p>
+          </form>
+
+          <!-- Coordonnées -->
+          <aside class="contact__info reveal">
+            <h3>Nos coordonnées</h3>
+            <ul>
+              <li>
+                <i class="fa-solid fa-location-dot"></i>
+                <div><strong>Siège social</strong><br>Bafoussam-Tamdja, Cameroun</div>
+              </li>
+              <li>
+                <i class="fa-solid fa-phone"></i>
+                <div>
+                  <strong>Téléphones</strong><br>
+                  <a href="tel:+237674004851">+237 674 00 48 51</a><br>
+                  <a href="tel:+237621978973">+237 621 97 89 73</a><br>
+                  <a href="tel:+237696231060">+237 696 231 060</a>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-envelope"></i>
+                <div>
+                  <strong>Email</strong><br>
+                  <a href="mailto:truepanafricanconstruction@gmail.com">truepanafricanconstruction@gmail.com</a>
+                </div>
+              </li>
+              <li>
+                <i class="fa-solid fa-clock"></i>
+                <div><strong>Horaires</strong><br>Lun — Sam : 8h00 — 18h00</div>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="./images/logo-tpc.png" alt="Logo True Panafrican Construction" class="footer__logo">
+        <p>Spécialiste en Bâtiment et Travaux publics, Prestations de service, Bureau d'étude.</p>
+      </div>
+
+      <div class="footer__col">
+        <h4>Navigation</h4>
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À Propos</a>
+        <a href="#services">Services</a>
+        <a href="#realisations">Réalisations</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer__col">
+        <h4>Réseaux sociaux</h4>
+        <div class="footer__socials">
+          <a href="https://wa.me/237696231060" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Contacter par WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://www.facebook.com/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="https://www.instagram.com/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="https://www.linkedin.com/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col footer__legal">
+        <h4>Informations légales</h4>
+        <p><strong>NIU :</strong> M052517788766Z</p>
+        <p><strong>RC :</strong> CM-BFX-01-2025-B13-00077</p>
+        <p><strong>Siège :</strong> Bafoussam-Tamdja</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>© <span id="year"></span> TRUE PANAFRICAN CONSTRUCTION SARL. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <!-- ================= LIGHTBOX (visionneuse d'images) ================= -->
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Visionneuse d'images">
+    <button class="lightbox__close" id="lbClose" aria-label="Fermer la visionneuse">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <button class="lightbox__nav lightbox__nav--prev" id="lbPrev" aria-label="Image précédente">
+      <i class="fa-solid fa-chevron-left"></i>
+    </button>
+    <figure class="lightbox__figure">
+      <img src="" alt="" id="lbImage">
+      <figcaption id="lbCaption"></figcaption>
+      <span class="lightbox__counter" id="lbCounter"></span>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" id="lbNext" aria-label="Image suivante">
+      <i class="fa-solid fa-chevron-right"></i>
+    </button>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
