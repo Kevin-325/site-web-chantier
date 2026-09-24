@@ -56,6 +56,36 @@ const revealObserver = new IntersectionObserver(entries => {
 
 document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
 
+// ---------- Chiffres-clés : animation de comptage ----------
+const statsSection = document.getElementById('stats');
+
+function animateCount(el) {
+  const target = parseInt(el.dataset.count, 10);
+  const suffix = el.dataset.suffix || '';
+  const duration = 1200;
+  const start = performance.now();
+
+  function tick(now) {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3); // ease-out
+    el.textContent = Math.round(target * eased) + suffix;
+    if (progress < 1) requestAnimationFrame(tick);
+  }
+  requestAnimationFrame(tick);
+}
+
+if (statsSection) {
+  const statsObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        statsSection.querySelectorAll('.stat__value').forEach(animateCount);
+        statsObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.4 });
+  statsObserver.observe(statsSection);
+}
+
 // ---------- Galerie : filtres ----------
 const chips = document.querySelectorAll('.chip');
 const galleryItems = document.querySelectorAll('.gallery__item');

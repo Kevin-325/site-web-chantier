@@ -31,6 +31,7 @@
         <a href="#accueil" class="nav-link active">Accueil</a>
         <a href="#apropos" class="nav-link">À Propos</a>
         <a href="#services" class="nav-link">Services</a>
+        <a href="#processus" class="nav-link">Processus</a>
         <a href="#realisations" class="nav-link">Réalisations</a>
         <a href="#contact" class="nav-link">Contact</a>
         <a href="#contact" class="btn btn--accent navbar__cta">Demander un devis</a>
@@ -63,6 +64,27 @@
         <i class="fa-solid fa-chevron-down"></i>
       </a>
     </section>
+
+    <div class="stats container" id="stats">
+      <div class="stats__inner">
+        <div class="stat">
+          <span class="stat__value" data-count="16" data-suffix="+">0</span>
+          <span class="stat__label">Réalisations suivies</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="3">0</span>
+          <span class="stat__label">Domaines d'expertise</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="48" data-suffix="h">0</span>
+          <span class="stat__label">Délai de réponse devis</span>
+        </div>
+        <div class="stat">
+          <span class="stat__value" data-count="6" data-suffix="j/7">0</span>
+          <span class="stat__label">Équipes disponibles</span>
+        </div>
+      </div>
+    </div>
 
     <!-- ================= À PROPOS ================= -->
     <section class="section about" id="apropos">
@@ -116,8 +138,52 @@
       </div>
     </section>
 
+    <!-- ================= POURQUOI NOUS CHOISIR ================= -->
+    <section class="section section--alt why" id="pourquoi">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__kicker">Pourquoi nous choisir</p>
+          <h2 class="section__title">Ce que vous gagnez à travailler avec nous</h2>
+          <p class="section__lead">Au-delà du chantier, une méthode pensée pour votre tranquillité d'esprit.</p>
+        </div>
+
+        <div class="why__grid">
+          <div class="why__item reveal">
+            <span class="why__icon"><i class="fa-solid fa-file-invoice-dollar"></i></span>
+            <h3>Devis transparent</h3>
+            <p>Un chiffrage détaillé, poste par poste, sans frais cachés, expliqué avant toute validation.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__icon"><i class="fa-solid fa-calendar-check"></i></span>
+            <h3>Délais maîtrisés</h3>
+            <p>Un planning réaliste, communiqué en amont et suivi de près jusqu'à la livraison.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__icon"><i class="fa-solid fa-hard-hat"></i></span>
+            <h3>Équipe qualifiée</h3>
+            <p>Ingénieurs et techniciens expérimentés, présents et supervisant chaque étape du chantier.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__icon"><i class="fa-solid fa-cube"></i></span>
+            <h3>Étude 3D incluse</h3>
+            <p>Visualisez votre projet en modélisation 3D avant le premier coup de pioche.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__icon"><i class="fa-solid fa-headset"></i></span>
+            <h3>Interlocuteur unique</h3>
+            <p>Un seul contact vous accompagne, du premier échange jusqu'à la réception des travaux.</p>
+          </div>
+          <div class="why__item reveal">
+            <span class="why__icon"><i class="fa-solid fa-location-crosshairs"></i></span>
+            <h3>Ancrage local</h3>
+            <p>Basés à Bafoussam-Tamdja, disponibles rapidement sur vos chantiers de la région.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ================= SERVICES ================= -->
-    <section class="section section--alt services" id="services">
+    <section class="section services" id="services">
       <div class="container">
         <div class="section__head reveal">
           <p class="section__kicker">Nos expertises</p>
@@ -135,6 +201,11 @@
               <span class="card__icon"><i class="fa-solid fa-building"></i></span>
               <h3>Conception, Étude &amp; Réalisation</h3>
               <p>Conception, étude et réalisation des Bâtiments et Travaux publics : de la fondation à la livraison, avec exigence et précision.</p>
+              <ul class="card__list">
+                <li><i class="fa-solid fa-check"></i> Bâtiments résidentiels &amp; commerciaux</li>
+                <li><i class="fa-solid fa-check"></i> Voiries et ouvrages de génie-civil</li>
+                <li><i class="fa-solid fa-check"></i> Suivi de chantier de A à Z</li>
+              </ul>
             </div>
           </article>
 
@@ -147,6 +218,11 @@
               <span class="card__icon"><i class="fa-solid fa-clipboard-check"></i></span>
               <h3>Contrôle des travaux de Génie-civil</h3>
               <p>Suivi et contrôle qualité de vos chantiers : conformité des ouvrages, respect des délais et des normes techniques.</p>
+              <ul class="card__list">
+                <li><i class="fa-solid fa-check"></i> Contrôle qualité &amp; conformité</li>
+                <li><i class="fa-solid fa-check"></i> Suivi des délais d'exécution</li>
+                <li><i class="fa-solid fa-check"></i> Vérification des normes techniques</li>
+              </ul>
             </div>
           </article>
 
@@ -159,9 +235,63 @@
               <span class="card__icon"><i class="fa-solid fa-compass-drafting"></i></span>
               <h3>Ingénierie &amp; Conseil</h3>
               <p>Bureau d'étude : plans, modélisations 3D, dimensionnement et conseil technique pour sécuriser vos investissements.</p>
+              <ul class="card__list">
+                <li><i class="fa-solid fa-check"></i> Plans &amp; modélisations 3D</li>
+                <li><i class="fa-solid fa-check"></i> Dimensionnement des structures</li>
+                <li><i class="fa-solid fa-check"></i> Conseil technique &amp; optimisation des coûts</li>
+              </ul>
             </div>
           </article>
         </div>
+      </div>
+    </section>
+
+    <!-- ================= PROCESSUS ================= -->
+    <section class="section section--alt process" id="processus">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__kicker">Notre méthode</p>
+          <h2 class="section__title">Comment se déroule votre projet</h2>
+          <p class="section__lead">Un déroulé clair, du premier échange à la remise des clés.</p>
+        </div>
+
+        <ol class="process__list">
+          <li class="process__item reveal">
+            <span class="process__num">01</span>
+            <div>
+              <h3>Étude &amp; diagnostic</h3>
+              <p>Analyse du terrain, des besoins et des contraintes techniques propres à votre projet.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">02</span>
+            <div>
+              <h3>Conception &amp; devis</h3>
+              <p>Plans, modélisation 3D si nécessaire, et chiffrage détaillé remis sous 48h.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">03</span>
+            <div>
+              <h3>Planification</h3>
+              <p>Calendrier d'exécution, mobilisation des équipes, du matériel et des matériaux.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">04</span>
+            <div>
+              <h3>Exécution des travaux</h3>
+              <p>Réalisation soignée du gros œuvre aux finitions, sous supervision d'ingénieurs.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">05</span>
+            <div>
+              <h3>Contrôle &amp; livraison</h3>
+              <p>Vérification de conformité, réception des travaux et accompagnement après livraison.</p>
+            </div>
+          </li>
+        </ol>
       </div>
     </section>
 
@@ -245,6 +375,81 @@
             <img src="./images/realisation-16.jpg" alt="Conception 3D d'une villa avec garage double" loading="lazy">
             <figcaption>Étude 3D — villa &amp; garage</figcaption>
           </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ZONES D'INTERVENTION ================= -->
+    <section class="section section--alt zones" id="zones">
+      <div class="container">
+        <div class="zones__grid">
+          <div class="zones__text reveal">
+            <p class="section__kicker">Zones d'intervention</p>
+            <h2 class="section__title">Basés à Bafoussam, mobilisables dans toute la région</h2>
+            <p>
+              Notre siège est situé à <strong>Bafoussam-Tamdja</strong>, au cœur de la région de l'Ouest.
+              C'est de là que nous mobilisons nos équipes vers vos chantiers, avec un délai
+              d'intervention réduit sur les localités les plus proches.
+            </p>
+            <p>Un projet en dehors de cette zone ? Contactez-nous : une intervention ailleurs au Cameroun reste possible selon l'ampleur du chantier.</p>
+          </div>
+
+          <ul class="zones__list reveal">
+            <li><i class="fa-solid fa-location-dot"></i> Bafoussam</li>
+            <li><i class="fa-solid fa-location-dot"></i> Bafang</li>
+            <li><i class="fa-solid fa-location-dot"></i> Bandjoun</li>
+            <li><i class="fa-solid fa-location-dot"></i> Mbouda</li>
+            <li><i class="fa-solid fa-location-dot"></i> Foumban</li>
+            <li><i class="fa-solid fa-location-dot"></i> Dschang</li>
+            <li class="zones__more"><i class="fa-solid fa-plus"></i> Et au-delà, sur devis</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="section__kicker">Questions fréquentes</p>
+          <h2 class="section__title">Tout ce qu'on nous demande avant de démarrer</h2>
+        </div>
+
+        <div class="faq__list reveal">
+          <details class="faq__item" open>
+            <summary>Quels types de projets réalisez-vous ?<i class="fa-solid fa-chevron-down"></i></summary>
+            <p>Bâtiments résidentiels et commerciaux, ouvrages de génie-civil, études techniques et modélisations 3D — pour les particuliers comme pour les entreprises.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Combien de temps pour recevoir un devis ?<i class="fa-solid fa-chevron-down"></i></summary>
+            <p>Notre équipe répond sous 48h après réception de votre demande, avec un premier échange pour bien cadrer le projet.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Proposez-vous des études 3D avant les travaux ?<i class="fa-solid fa-chevron-down"></i></summary>
+            <p>Oui. Notre bureau d'étude réalise plans et modélisations 3D pour visualiser l'ouvrage avant tout engagement financier.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Travaillez-vous avec des particuliers ou seulement des entreprises ?<i class="fa-solid fa-chevron-down"></i></summary>
+            <p>Les deux : particuliers, promoteurs immobiliers, entreprises et institutions.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Quel suivi après la livraison des travaux ?<i class="fa-solid fa-chevron-down"></i></summary>
+            <p>Nous restons disponibles après la réception du chantier pour tout ajustement ou question technique.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CTA BANNER ================= -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <div>
+          <h2>Un projet de construction en tête ?</h2>
+          <p>Parlons-en. Devis gratuit et réponse sous 48h.</p>
+        </div>
+        <div class="cta__actions">
+          <a href="tel:+237674004851" class="btn btn--accent"><i class="fa-solid fa-phone"></i> Appeler maintenant</a>
+          <a href="https://wa.me/237696231060" class="btn btn--primary" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
         </div>
       </div>
     </section>
@@ -333,7 +538,9 @@
         <a href="#accueil">Accueil</a>
         <a href="#apropos">À Propos</a>
         <a href="#services">Services</a>
+        <a href="#processus">Processus</a>
         <a href="#realisations">Réalisations</a>
+        <a href="#faq">FAQ</a>
         <a href="#contact">Contact</a>
       </div>
 
